@@ -1,0 +1,85 @@
+/***** Styling for card component *********/
+
+/*.card {
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.11);
+  padding: 20px;
+  margin: 10px;
+  text-align: center;
+  max-width: 250px;
+  display: inline-block;
+}
+
+.card .card-image {
+  max-width: 50%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 50%;
+}
+
+.card .card-title {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  color: hsl(0, 0%, 30%);
+}
+
+.card .card-text {
+  font-family: Arial, sans-serif;
+  color: hsl(0, 0%, 20%);
+} */
+
+/**** Styling for student component ******/
+/* .student {
+  font-family: Arial, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border: 1px solid hsla(0, 0%, 50%, 0.808)
+}
+
+.student p {
+  margin: 0;
+} */
+
+/**** styling for UserLogIn *****/
+
+.welcome-message {
+  background-color: greenyellow;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.login-prompt {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+/**** styling for List ****/
+.list-category {
+  font-size: 2.5em;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  border: 3px solid;
+  border-radius: 5px;
+  background-color: hsl(194, 100%, 50%);
+}
+
+.list-items li {
+  font-size: 2em;
+  color: hsl(0, 0%, 0%);
+  list-style: disc;
+  list-style-position: inherit;
+  text-align: center;
+  margin: 0;
+}
+
+.list-items li:hover {
+  cursor: pointer;
+  color: hsl(0, 0%, 25%);
+}
