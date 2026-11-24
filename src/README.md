@@ -23,3 +23,11 @@
         -List.jsx
         -Implemented sort() & filter()
         _Using shortCircuiting (&&) in place of ternary operator
+
+- Day 5: *Click events*
+        -Button.jsx
+        -Listened for callbacks with & without parameters.
+        -Listened and captured the event object & used it to change textContent
+        -ProfilePicture.jsx
+        -Added click eventListener to image and captured the event object and used it to hide image    onClick.
+        -**Summary: event object can be used for multiple operations
