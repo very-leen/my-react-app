@@ -103,13 +103,24 @@
 
 ///////////// click events \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
-import Button from "./Button.jsx"
-import ProfilePicture from "./ProfilePicure.jsx";
+// import Button from "./Button.jsx"
+// import ProfilePicture from "./ProfilePicure.jsx";
+
+// function App() {
+//   return (
+//     //<Button />
+//     <ProfilePicture />
+//   )
+// }
+
+// export default App;
+
+/////////// useState() hook \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+import MyComponent from "./MyComponent.jsx";
 
 function App() {
   return (
-    //<Button />
-    <ProfilePicture />
+    <MyComponent />
   )
 }
 

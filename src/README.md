@@ -31,3 +31,10 @@
         -ProfilePicture.jsx
         -Added click eventListener to image and captured the event object and used it to hide image    onClick.
         -**Summary: event object can be used for multiple operations
+
+       : *useState hook*
+        - MyComponents.jsx
+        -useState() = [stateVariable, setterFunction]
+        - setterFunctoin changes value of stateVariable
+        - to assign stateVariable default value: 
+                - const [stateVariable, setter] = useState("defValue");
