@@ -38,4 +38,8 @@
         - setterFunction changes value of stateVariable
         - to assign stateVariable default value: 
                 - const [stateVariable, setter] = useState("defValue");
-        - setter function must begin with keyword 'set' eg: setCount        
+        - setter function must begin with keyword 'set' eg: setCount
+
+- Day 6: *onChange()*
+        -MyComponent.jsx
+        -impelemented state with onChange() attribute for [input, textarea, select, radio]        
