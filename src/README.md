@@ -35,6 +35,7 @@
        : *useState hook*
         - MyComponents.jsx
         -useState() = [stateVariable, setterFunction]
-        - setterFunctoin changes value of stateVariable
+        - setterFunction changes value of stateVariable
         - to assign stateVariable default value: 
                 - const [stateVariable, setter] = useState("defValue");
+        - setter function must begin with keyword 'set' eg: setCount        
